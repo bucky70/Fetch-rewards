@@ -43,7 +43,8 @@ public class ReceiptController {
 
         // check if there is purchase resource for this id
         if (purchase == null) {
-            throw new NoSuchElementException("Receipt not found");
+           // throw new NoSuchElementException("Receipt not found");
+            return Map.of("error",404);
         }
         int points = calculateServiceImpl.calculatePoints(purchase);
         return Map.of("points", points);
