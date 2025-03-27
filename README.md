@@ -16,9 +16,9 @@ To run the application using Docker, follow these steps:
    ```bash
    docker build -t receiptprocessor .
 
-2. **Run the docker container
+2. **Run the docker container**:
    ```bash
-   docker build -t receiptprocessor .
+   docker run -p 8080:8080 receiptprocessor .
 
 #Testing
 ##Test cases are written using JUnit and Mockito to ensure the functionality works as expected.
