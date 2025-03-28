@@ -20,7 +20,8 @@ To run the application using Docker, follow these steps:
    ```bash
    docker run -p 8080:8080 receiptprocessor .
 
-#Testing
-##Test cases are written using JUnit and Mockito to ensure the functionality works as expected.
+# Testing
+
+## Test cases are written using JUnit and Mockito to ensure the functionality works as expected.
 
 
